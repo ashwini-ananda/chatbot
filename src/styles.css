@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.chat-box-header, .chat-button {
+    display: none !important;
+    height: 0 !important;
+}
+.wrapper, .chat-box-main, .chat-box-footer  {
+    width: 480px !important;
+}
+.chat-box{
+    width: 480px !important;
+    top: 100px !important;
+}
+
+@import '/node_modules/@nebular/theme/styles/prebuilt/default.css'
+
